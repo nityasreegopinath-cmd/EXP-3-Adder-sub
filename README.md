@@ -40,6 +40,7 @@ module half_subtractor (
 endmodule
 ```
 ### Testbench Program
+```
 // gedit tb3.v
 module tb3;
  reg A, B;
@@ -74,7 +75,7 @@ hierarchy
  #10 $finish;
  end
 endmodule
-
+```
 ### Truth Table
 
 
